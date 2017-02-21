@@ -20,19 +20,15 @@
         <div class="col-md-12">
             <h1>{{ title }}</h1>
 
-            <h2>Add a form here</h2>
+            <h2><code>/qr</code> is where it's at!</h2>
 
-            <form class="form-inline" role="form" method="POST" action="/dostuff" enctype="multipart/form-data">
-                <div class="form-group">
-                    <input type="file" class="form-control" name="file" size="256">
-                    <input type="submit" class="btn btn-primary">
-                </div>
-            </form>
+            <h3>Example</h3>
+            <img src="/qr" width=50%/>
+
         </div>
     </div>
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -23,6 +23,7 @@
     "hogan.js": "^3.0.2",
     "log4js": "^0.6.16",
     "promised-io": "^0.3.4",
+    "qr-image": "^3.2.0",
     "static-favicon": "~1.0.0"
   },
   "devDependencies": {
