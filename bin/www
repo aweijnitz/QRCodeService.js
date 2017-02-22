@@ -46,7 +46,7 @@ prepServerStart().then(function (result) {
     logger.info('Starting server');
     app.set('port', (appConf.server.port || process.env.PORT) || 8080);
 
-    var server = app.listen(app.get('port'), function () {
+    var server = app.listen(app.get('port'), 'localhost', function () {
         logger.info('Server listening on port ' + server.address().port);
     });
 
