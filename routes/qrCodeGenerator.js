@@ -24,8 +24,8 @@ var handleReq = function(appConf, log4js) {
     var logger = log4js.getLogger("qrCodeGenerator");
 
     return function generateQRCode (req, res) {
-
-        var qr_svg = qr.image('http://andersw.info', { type: 'svg' });
+        var url = 'http://' + (req.query.url || 'no-url-defined');
+        var qr_svg = qr.image(url, { type: 'svg' });
 
         res.type('svg');
         qr_svg.pipe(res);

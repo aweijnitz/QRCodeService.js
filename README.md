@@ -1,8 +1,8 @@
-# EmptyServer.js
-An Express4 server scaffold with focus on the server life-cycle.
+# QRCodeService.js
+A node.js micro service for generating QR codes with embedded URLs, passed as a query parameter.
 
 Features
-
+- Generate QR code as SVG (using package qr-image)
 - Application life-cycle management
     * Pre-start setup hook
     * Shutdown hook on 'SIGINT' and 'SIGTERM' for pre-exit cleanup or data saving.
@@ -18,14 +18,11 @@ Features
 ## Install
 First clone/save this repo
 
-    cd EmptyServer
+    cd QRCodeService.js
     mkdir logs
-    mkdir uploadDir
 	npm install
 ## Run
 	npm start
 ## Run tests
 	npm test
-	
-<img src="http://mildly-interesting.info/images/startShutown.png" alt="Server startup" style="width:640px;">	
 	

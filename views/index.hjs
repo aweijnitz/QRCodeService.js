@@ -23,7 +23,7 @@
             <h2><code>/qr</code> is where it's at!</h2>
 
             <h3>Example</h3>
-            <img src="/qr" width=50%/>
+            <img src="/qr?url=andersw.info%3Fsome%3Dparam%26and%3Danother" width=50%/>
 
         </div>
     </div>
