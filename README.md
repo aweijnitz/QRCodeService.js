@@ -1,7 +1,10 @@
 # QRCodeService.js
 A node.js micro service for generating QR codes with embedded URLs, passed as a query parameter.
 
-Features
+*Use*
+[localhost:8080?url=abc.de](http://localhost:8080?url=abc.de)
+
+*Features*
 - Generate QR code as SVG (using package qr-image)
 - Application life-cycle management
     * Pre-start setup hook
